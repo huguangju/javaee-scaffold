@@ -1,4 +1,4 @@
-package org.spring.mvc.sample;
+package com.jediego.simple;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +21,6 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppC
 public class HelloControllerTests {
     private MockMvc mockMvc;
 
-    @SuppressWarnings("SpringJavaAutowiringInspection")
     @Autowired
     protected WebApplicationContext wac;
 
