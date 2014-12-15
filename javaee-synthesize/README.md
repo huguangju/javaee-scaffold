@@ -1,0 +1,1 @@
+## javaee synthesize scaffolding
